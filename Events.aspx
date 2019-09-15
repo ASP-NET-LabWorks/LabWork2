@@ -13,6 +13,9 @@
                 <div class="input-group-text">
                     <asp:CheckBox ID="CheckBox" runat="server" OnCheckedChanged="CheckBox_CheckedChanged" />
                 </div>
+                <div class="input-group-text">
+                    <asp:CheckBox ID="CheckBoxAPB" runat="server" OnCheckedChanged="CheckBox_CheckedChanged" AutoPostBack="true" />
+                </div>
             </div>
         </div>
     </div>
