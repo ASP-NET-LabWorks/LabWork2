@@ -11,7 +11,7 @@ namespace LabWork2
     {
         private void AddEvent(string name)
         {
-            LabelEvents.Text += $"{name}→";
+            LabelEvents.Text += $"{name} → ";
         }
 
         protected void Page_Init(object sender, EventArgs e)
