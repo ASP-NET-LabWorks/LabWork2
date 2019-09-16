@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>События жизненного цикла web-формы</h1>
-        <asp:Table CssClass="table table-striped" ID="TableEvents" runat="server"></asp:Table>
+        <asp:Label ID="LabelEvents" runat="server" Text=""></asp:Label>
         <div class="input-group">
             <div class="input-group-prepend">
                 <asp:Button CssClass="btn btn-primary" ID="Button" runat="server" Text="?" OnClick="Button_Click" />

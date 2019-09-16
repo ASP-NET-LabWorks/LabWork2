@@ -13,13 +13,13 @@ namespace LabWork2 {
     public partial class Contact {
         
         /// <summary>
-        /// TableEvents элемент управления.
+        /// LabelEvents элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table TableEvents;
+        protected global::System.Web.UI.WebControls.Label LabelEvents;
         
         /// <summary>
         /// Button элемент управления.

@@ -11,13 +11,7 @@ namespace LabWork2
     {
         private void AddEvent(string name)
         {
-            var row = new TableRow();
-            var cell = new TableCell();
-
-            cell.Text = name;
-
-            row.Cells.Add(cell);
-            TableEvents.Rows.Add(row);
+            LabelEvents.Text += $"{name}→";
         }
 
         protected void Page_Init(object sender, EventArgs e)
