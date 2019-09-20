@@ -1,6 +1,6 @@
 # LabWork2
 
 Web Forms
-- Viewstate
+- ViewState
 - Web Form lifecycle
-- Autopostback
+- AutoPostBack
